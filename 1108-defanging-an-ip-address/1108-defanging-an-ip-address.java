@@ -1,3 +1,4 @@
+// Use simple String.replace(".", "[.]") in Java.
 class Solution {
     public String defangIPaddr(String address) {
         // return address.replace(".", "[.]");
@@ -12,3 +13,6 @@ class Solution {
         return sb.toString();
     }
 }
+
+// Time: O(n)
+// Space: O(n)
