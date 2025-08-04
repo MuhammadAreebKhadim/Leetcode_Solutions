@@ -1,3 +1,4 @@
+// fast and slow pointers:
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,7 +30,8 @@ class Solution {
             prev = prev.next;
         }
         return true;
-
+// Time: O(n)
+// Space: O(1)
 
 
 
