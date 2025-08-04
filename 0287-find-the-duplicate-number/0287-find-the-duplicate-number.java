@@ -1,3 +1,4 @@
+// Use Floyd’s Tortoise and Hare (cycle detection) algorithm, as array values form a linked list with a cycle.
 class Solution {
     public int findDuplicate(int[] nums) {
         int slow = nums[0];
@@ -14,3 +15,6 @@ class Solution {
         return slow;
     }
 }
+
+// Time: O(n)
+// Space: O(1)
