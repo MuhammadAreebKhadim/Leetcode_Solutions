@@ -9,3 +9,5 @@ class Solution {
         return count;
     }
 }
+// Time: O(n * m) (n = number of words, m = prefix length)
+// Space: O(1)
