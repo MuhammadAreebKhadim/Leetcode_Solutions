@@ -1,4 +1,5 @@
 // sign flipping (negative marking)
+// Mark visited indices negative. If you hit a number whose mapped index is already negative, it's a duplicate.
 class Solution {
     public List<Integer> findDuplicates(int[] nums) {
         List<Integer> result = new ArrayList<>();
@@ -14,3 +15,6 @@ class Solution {
     }
 }
 
+
+// Time: O(n)
+// Space: O(1) (modifying array)
