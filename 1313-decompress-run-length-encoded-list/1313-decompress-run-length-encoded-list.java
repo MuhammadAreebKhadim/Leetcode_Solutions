@@ -1,3 +1,4 @@
+// Iterate over the array in steps of 2; for each pair [freq, val], add val freq times.
 class Solution {
     public int[] decompressRLElist(int[] nums) {
         int totalLen = 0;
@@ -16,3 +17,6 @@ class Solution {
         return result;
     }
 }
+
+// Time: O(n)
+// Space: O(n)
