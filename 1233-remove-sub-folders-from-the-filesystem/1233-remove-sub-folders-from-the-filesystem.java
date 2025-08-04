@@ -1,3 +1,4 @@
+// Sort folder paths lexicographically, and skip folders that are subpaths of the last added folder.
 class Solution {
     public List<String> removeSubfolders(String[] folder) {
         Arrays.sort(folder);
@@ -10,3 +11,6 @@ class Solution {
         return result;
     }
 }
+
+// Time: O(n log n)
+// Space: O(n)
