@@ -1,3 +1,4 @@
+// Sliding window & Hashmap:
 class Solution {
     public int totalFruit(int[] fruits) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -16,3 +17,5 @@ class Solution {
         return max;
     }
 }
+// Time: O(n) — each element is processed at most twice.
+// Space: O(1) — map holds at most 2 types at any time.
