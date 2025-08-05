@@ -31,3 +31,5 @@ class Solution {
         return sum;
     }
 }
+// Time: O(n) — visit each node once
+// Space: O(w) — width of the tree (max nodes at any level)
