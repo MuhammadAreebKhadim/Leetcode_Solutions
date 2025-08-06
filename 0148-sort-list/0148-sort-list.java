@@ -1,3 +1,4 @@
+// Two pointer and merge sort:
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,3 +39,6 @@ class Solution {
         return merg(l1, l2);
     }
 }
+
+// Time Complexity: O(n log n) due to merge sort
+// Space Complexity: O(log n) for recursion (not counted in problem's constraint of constant space)
