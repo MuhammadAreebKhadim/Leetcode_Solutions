@@ -18,3 +18,7 @@ class Solution {
         return Math.max(mintime, tasks.length);
     }
 }
+
+
+// Time: O(N) for counting + O(26 log 26) sorting → O(N)
+// Space: O(1) → because only 26 tasks (A–Z)
