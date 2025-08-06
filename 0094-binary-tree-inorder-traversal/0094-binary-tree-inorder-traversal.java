@@ -31,3 +31,5 @@ class Solution {
         return result;
     }
 }
+// Time: O(n) – each node is visited once
+// Space: O(h) – height of tree (recursion stack or explicit stack)
