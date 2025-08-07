@@ -1,3 +1,4 @@
+// // Postorder Traversal (Left → Right → Root)
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,3 +27,6 @@ class Solution {
         return result;
     }
 }
+// Time	O(n)
+// Space (stack)	O(h) where h = height of tree (O(log n) for balanced, O(n) worst)
+
