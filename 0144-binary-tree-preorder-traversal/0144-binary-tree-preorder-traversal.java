@@ -1,3 +1,5 @@
+// Preorder Traversal: Root → Left → Right
+// Recursive:
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,3 +28,5 @@ class Solution {
         return result;
     }
 }
+// Time	O(n)
+// Space	O(n)
