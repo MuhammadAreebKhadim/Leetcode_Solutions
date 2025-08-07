@@ -21,3 +21,5 @@ class Solution {
         return 1 + Math.max(left, right);
     }
 }
+// Time	O(n)
+// Space (Stack)	O(h) (height)
