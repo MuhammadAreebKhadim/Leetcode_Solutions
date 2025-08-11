@@ -1,3 +1,4 @@
+// queue.offer ---> node = queue.poll ---> list.add(value) ---> queue.offer(left, right)
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
