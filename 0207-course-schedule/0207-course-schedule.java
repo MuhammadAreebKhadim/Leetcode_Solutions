@@ -1,3 +1,4 @@
+// DFS Toplogical Method:
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<List<Integer>> graph = new ArrayList<>();
@@ -9,14 +10,16 @@ class Solution {
         }
         return true;
     }
-        private boolean hasCycle(List<List<Integer>> graph, int visited[], int course){
-            if(visited[course] == 1) return true;
-            if(visited[course] == 2) return false;
-            visited[course] = 1;
-            for(int next : graph.get(course)){
-                if(hasCycle(graph, visited, next)) return true;
-            }
-            visited[course] = 2;
-            return false;
+    private boolean hasCycle(List<List<Integer>> graph, int visited[], int course){
+       if(visited[course] == 1) return true;
+       if(visited[course] == 2) return false;
+       visited[course] = 1;
+        for(int next : graph.get(course)){
+            if(hasCycle(graph, visited, next)) return true;
         }
+       visited[course] = 2;
+       return false;
+     }
 }
+// Time Complexity — O(V + E)
+// Space Complexity — O(V + E)
