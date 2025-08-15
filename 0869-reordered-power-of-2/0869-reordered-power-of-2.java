@@ -3,7 +3,7 @@ class Solution {
         String target = sortDigits(n);
         // Precompute sorted forms of all powers of two up to 2^30 (fits in int range)
         for (int i = 0; i < 31; i++) {
-            int power = 1 << i; // 2^i
+            int power = (int) Math.pow(2, i); // 2^i
             if (target.equals(sortDigits(power))) {
                 return true;
             }
