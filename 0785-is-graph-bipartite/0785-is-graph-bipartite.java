@@ -1,3 +1,4 @@
+//  BFS:
 class Solution {
     public boolean isBipartite(int[][] graph) {
         int n = graph.length;
@@ -22,3 +23,5 @@ class Solution {
         return true;
     }
 }
+// Time: 𝑂(𝑉+𝐸)
+// Space: O(V)
