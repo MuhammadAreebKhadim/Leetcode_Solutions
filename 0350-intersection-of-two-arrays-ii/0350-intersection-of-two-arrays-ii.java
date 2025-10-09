@@ -1,3 +1,4 @@
+// Sorting + Two pointer:
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         Arrays.sort(nums1);
