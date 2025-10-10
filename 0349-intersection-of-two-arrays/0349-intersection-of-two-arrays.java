@@ -1,4 +1,3 @@
-// Hash Set:
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> set1 = new HashSet<>();
